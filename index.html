@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Creepster&display=swap" rel="stylesheet">
+  </head>
+  <body class="">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Scott Cawthon</h1>
+        <p class="font">And I'm a former game designer</p>
+      </div>
+    </div>
+
+ <div id="accordionNav col-6 ">
+  <div class="accordionPanel">
+    <div
+      class="accordionPanelTab"
+      id="eventsWeekTab"
+      onclick="eventsThisWeek();"
+    >
+      Background info
+    </div>
+    <div class="accordionPanelContent overflow-auto" id="eventsWeekContent">
+      <a href="#">
+        <div class="text-center "> <img src="images\scott.webp" width="180" height="140"/></div>
+      </a>
+      <h3 class="text-center ">Scott Cawthon was born in Houston, Texas on June 4, 1978.
+        He lives in Salado, Texas, with his wife and six children. He started off his game design and animation career as early as 1990. Cawthon 
+        developed several games, including Sit N' Survive, Chipper and Sons Lumber Co., and The Desolate Hope. Some of these were submitted to 
+        Steam in hopes they would make it onto the store.  The Desolate Hope was able to make it through the process and end up in the store, but some games, like Chipper and Sons Lumber Co., were 
+        heavily criticized by important reviewers for having characters that moved and interacted with each other like 
+        animatronic machines. While initially discouraged by these comments, almost to the point of stopping game development completely, 
+        Cawthon eventually decided to use the animatronic-like characters to his advantage, sparking the development of his most popular game to this day, Five Nights at Freddy's</h3>
+        
+  </div>
+  <div class="accordionPanel">
+    <div class="accordionPanelTab" id="comingUpTab"
+      onclick="showComingUp();"
+    >
+      Lifes work
+    </div>
+    <div class="accordionPanelContent overflow-auto" id="comingUpContent">
+       <div class="text-center"><img src="images\fnaffreddy.jpg" width="180" height="140"/></div>
+       
+        <h3 class="text-center">Once Scott designed Five nights at Freddy's, this is when his solo game designing buisness boomed. Scott made his games all by himself
+          for a very long time. All of the design, animations and artwork was all done by him. Present day Fnaf games are made by companies, but at this point he has
+        retired and passed the game on to another company to keep designing new ones for. Scott made around 8 of the 9 fnaf games currently. He also dabbled in novels a bit,
+      writing stories about these characters, and also guides to beat some of the games, and some activity books, like coloring books. </h3>
+    </div>
+  </div>
+  <div class="accordionPanel">
+    <div
+      class="accordionPanelTab"
+      id="pastEventsTab"
+      onclick="pastEvents();"
+    >
+      Style
+    </div>
+    
+    <div class="accordionPanelContent overflow-auto" id="pastEventsContent">
+      <div class="text-center"><img src="images\witheredchica.png" width="180" height="140"/></div>
+        <h3 class="text-center">Scott Cawthons style is making things look old and rustic for the most part. He likes to keep things having a creepy-esc look to them. Some ways he does this
+          is by making things look old, and some of his characters are withered, they have wires and such coming out of them. Scott also puts more sharp teeth and patches/holes 
+          on characters that he wants to look scarier than others. Another way he attempts to make characters looks scary is by making the white of their eyes black and turning their
+          pupils white.
+        </h3>
+
+    </div>
+  </div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
